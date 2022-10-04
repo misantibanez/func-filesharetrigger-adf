@@ -5,10 +5,10 @@
       "type": "eventHubTrigger",
       "name": "event",
       "direction": "in",
-      "eventHubName": "newfile",
-      "connection": "testfilesharelog_RootManageSharedAccessKey_EVENTHUB",
+      "eventHubName": "event_hub_name",
+      "connection": "event_hub_connection",
       "cardinality": "one",
-      "consumerGroup": "function"
+      "consumerGroup": "consumer_group_name"
     }
   ]
 }
