@@ -1,0 +1,14 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "event",
+      "direction": "in",
+      "eventHubName": "newfile",
+      "connection": "testfilesharelog_RootManageSharedAccessKey_EVENTHUB",
+      "cardinality": "one",
+      "consumerGroup": "function"
+    }
+  ]
+}
